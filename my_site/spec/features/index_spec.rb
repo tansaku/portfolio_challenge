@@ -17,4 +17,12 @@ describe 'index', type: :feature do
     expect(page).to have_css 'img[src*="middleman-logo.svg"]'
   end
 
+  it 'Displays projects list' do
+   expect(page).to have_css '.projects'
+   within '.projects' do
+     expect(page).to have_content 'My First Website'
+     expect(page).to have_content 'FizzBuzz'
+   end
+ end
+
 end
