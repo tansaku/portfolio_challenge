@@ -1,3 +1,9 @@
+require 'extensions/build_cleaner'
+
+configure :build do
+  activate :relative_assets
+  activate :build_cleaner
+end
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -17,6 +23,11 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
+
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.deploy_method = :git
+end
 
 # Reload the browser automatically whenever files change
 configure :development do
