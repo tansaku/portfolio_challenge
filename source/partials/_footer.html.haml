@@ -1,0 +1,43 @@
+%link{:href => "http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css", :rel => "stylesheet"}
+  %header
+    %h1
+    %h2.subheader
+  %footer.footer
+    .row
+      .small-12.medium-6.medium-push-6.columns
+        %p.logo.show-for-small-only
+          %i.fi-target
+
+        %form.footer-form
+          .row
+            .medium-9.medium-push-3.columns
+              %label
+                %label.contact{:for => "email"} Contact Me
+                %input#email{:placeholder => "Email Address", :type => "email"}/
+          .row
+            .medium-9.medium-push-3.columns
+              %label
+                %textarea#message{:placeholder => "Message", :rows => "5"}
+            .row
+              .medium-9.medium-push-3.columns
+                %button.submit{:type => "submit", :value => "Submit"} Send
+      .small-12.medium-6.medium-pull-6.columns
+        %p.logo.hide-for-small-only
+          %i.fi-target
+          LUCIA DE MOJÀ
+        %p.footer-links
+          %a{:href => "#"} Home
+          %a{:href => "#"} Blog
+          %a{:href => "#"} About Me
+          %a{:href => "#"} My Portfolio
+          %a{:href => "#"} Contact
+        %ul.inline-list.social
+          %a{:href => "#"}
+            %i.fi-social-facebook
+          %a{:href => "#"}
+            %i.fi-social-twitter
+          %a{:href => "#"}
+            %i.fi-social-linkedin
+          %a{:href => "#"}
+            %i.fi-social-github
+        %p.copywrite Copywrite Lucia De Mojà © 2016

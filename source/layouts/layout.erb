@@ -9,16 +9,16 @@
     <title><%= current_page.data.title || "My Portfolio" %></title>
 
     <!--<link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> -->
-
+    <%= stylesheet_link_tag 'https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css' %>
     <%= stylesheet_link_tag :site %>
-
-
-    <%= javascript_include_tag :all %>
   </head>
 
   <body class="<%= page_classes %>", background="source/images/O97PRX0.jpg">
     <%= partial 'partials/header' %>
     <%= yield %>
     <%= partial 'partials/footer' %>
+    <%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js' %>
+    <%= javascript_include_tag 'https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.js' %>
+    <%= javascript_include_tag :all %>
   </body>
 </html>
