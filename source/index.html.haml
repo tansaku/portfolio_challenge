@@ -1,13 +1,13 @@
 .welcome
-  .logo
-    = image_tag 'middleman-logo.svg'
-  %h1 Good Job Lucia
+  %h1 Lucia De Mojà
+  %h4 Junior Web Developer
   %p.doc
-    = link_to 'Read Documentation Online', ' https://middlemanapp.com', target: '_blank'
+    = link_to 'Find me on LinkedIn!', ' https://se.linkedin.com/in/lucia-de-mojà-b202aa4b/en ', target: '_blank'
 .projects
+  %h3 My Portfolio
   - data.projects.each do |project|
     %h4= project[:name]
-    %p= project[:description]
+    %h6= project[:description]
 %footer
-  %h3 My Portfolio
-  %p Built using the awesome Middleman framework
+  %h3 "If it breathes, it's food"
+  %p Lucia De Mojà
