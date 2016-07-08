@@ -1,0 +1,5 @@
+.projects
+  %h3 My Portfolio
+  - data.projects.each do |project|
+    %h4= project[:name]
+    %h6= project[:description]
