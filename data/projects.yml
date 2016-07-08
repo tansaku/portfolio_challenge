@@ -1,5 +1,19 @@
 - name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse
+  description: Simple HTML5 site created during the PrepCourse at CraftAcademy.
+  link: http://luciademoja.github.io/
 
 - name: FizzBuzz
-  description: My first Test driven ruby project
+  description: My first Test driven ruby project soon to be deployed.
+  link: https://github.com/luciademoja/fizz_buzz
+
+- name: BMI Calculator
+  description: Playing around with some JavaScript, discovering Jasmine and a first approach to the User Interface.
+  link: https://luciademoja.github.io/BMI-challenge/
+
+- name: Slow Food Project
+  description: Created in collaboration with my programming partners and still in progress. An introduction to Heroku, Sinatra and Behavior Driven Development.
+  link: https://slow-food-june.herokuapp.com/
+
+- name: My Portfolio
+  description: This very same website created during my 4th week of course. A taste of HAML, SCSS and a first solo fly into RSpec.
+  link: https://github.com/luciademoja/portfolio_challenge
