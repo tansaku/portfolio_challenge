@@ -6,6 +6,10 @@
   description: My first Test driven ruby project soon to be deployed.
   link: https://github.com/luciademoja/fizz_buzz
 
+- name: ATM-Challenge
+  description: Test Driven Development assignment 
+  link: https://github.com/luciademoja/ATM-challenge/
+
 - name: BMI Calculator
   description: Playing around with some JavaScript, discovering Jasmine and a first approach to the User Interface.
   link: https://luciademoja.github.io/BMI-challenge/
