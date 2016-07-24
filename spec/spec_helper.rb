@@ -6,6 +6,7 @@ require 'middleman-core/rack'
 require 'middleman-livereload'
 require 'middleman-deploy'
 require 'middleman-sprockets'
+require 'middleman-blog'
 require 'pry'
 
 middleman_app = ::Middleman::Application.new

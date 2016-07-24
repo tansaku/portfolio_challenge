@@ -55,7 +55,7 @@ configure :build do
 end
 
 activate :blog do |blog|
-  # set options on blog
+  blog.prefix = "blog"
 end
 
 set :relative_links, true
