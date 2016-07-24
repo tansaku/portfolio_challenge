@@ -10,6 +10,14 @@ describe 'blog', type: :feature do
     expect(page).to have_selector '.article'
   end
 
+  it 'Redirects to each article on click' do
+    expect(page).to have_selector '.article'
+      within '.article' do
+        click_link 'Amazing Article'
+      end
+    expect(page.current_path).to eq '/2016/07/24/three.html'
+  end
+
   it 'Renders header partial' do
    expect(page).to have_selector 'header'
    within 'header' do
