@@ -16,7 +16,8 @@
               %textarea#message{placeholder: "Message", rows: "5"}
           .row
             .medium-9.medium-push-3.columns
-              %button.submit{type: "submit", value: "Submit"} Send
+              %form{action: "MAILTO:luciademoja@gmail.com", method: "post"}
+                %button.submit{type: "submit", value: "Submit"} Send
     .small-12.medium-6.medium-pull-6.columns
       %h5.logo.hide-for-small-only
         %i.fi-target

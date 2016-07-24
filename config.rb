@@ -55,7 +55,9 @@ configure :build do
 end
 
 activate :blog do |blog|
-  blog.prefix = "blog"
+  # blog.sources = 'blog/:title.html'
+  # blog.permalink = "blog_articles/:title.html"
+  blog.default_extension = ".yml"
 end
 
 set :relative_links, true
