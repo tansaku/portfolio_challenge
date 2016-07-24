@@ -1,9 +1,9 @@
 .row
-  %h5 Here you can find a list of all my projects developed since my enrollment in CraftAcademy.
-  -data.projects.each_slice(2) do |group|
+  %p Here you can find a list of all my projects developed since my enrollment in CraftAcademy.
+  - data.projects.each_slice(2) do |group|
     .row
     - group.each do |item|
       .large-6.columns
-        %h2= link_to item[:name], item[:link], target: '_blank'
-        %h4= item[:description]
+        %h3= link_to item[:name], item[:link], target: '_blank'
+        %h5= item[:description]
         %br

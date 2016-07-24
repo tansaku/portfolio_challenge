@@ -3,11 +3,11 @@
   link: http://luciademoja.github.io/
 
 - name: FizzBuzz
-  description: My first Test driven ruby project soon to be deployed.
-  link: https://github.com/luciademoja/fizz_buzz
+  description: Test driven JS version of the first ruby FizzBuzz challenge tested using Karma/Jasmine/JQuery.
+  link: https://luciademoja.github.io/fizz_buzz_js
 
 - name: ATM-Challenge
-  description: Test Driven Development assignment 
+  description: Test Driven Development assignment
   link: https://github.com/luciademoja/ATM-challenge/
 
 - name: BMI Calculator
@@ -21,3 +21,7 @@
 - name: My Portfolio
   description: This very same website created during my 4th week of course. A taste of HAML, SCSS and a first solo fly into RSpec.
   link: https://github.com/luciademoja/portfolio_challenge
+
+- name: Library Challenge
+  description: Small project developed in Ruby and tested using RSpec. A weekend challenge faced at the end of the first week of course.
+  link: https://github.com/luciademoja/library-challenge
