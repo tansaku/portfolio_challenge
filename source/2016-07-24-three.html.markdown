@@ -1,0 +1,9 @@
+---
+title: Amazing Article
+date: 2016-07-24 22:11 UTC
+tags:
+---
+
+#Amazing article
+
+> This is my *amazing* third article written just for the purpose of showing something on the new page!

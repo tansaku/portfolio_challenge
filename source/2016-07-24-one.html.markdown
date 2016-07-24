@@ -1,0 +1,9 @@
+---
+title: Cute Article
+date: 2016-07-24 22:02 UTC
+tags:
+---
+
+#Cute Article
+
+> This is my *super cute* first article written just for the purpose of showing something on the new page!

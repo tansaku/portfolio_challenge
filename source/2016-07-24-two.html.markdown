@@ -1,0 +1,9 @@
+---
+title: Nice Article
+date: 2016-07-24 22:11 UTC
+tags:
+---
+
+#Nice Article
+
+> This is my *very nice* second article written just for the purpose of showing something on the new page!

@@ -55,7 +55,9 @@ configure :build do
 end
 
 activate :blog do |blog|
-  # set options on blog
+
 end
 
 set :relative_links, true
+###
+# Page options, layouts, aliases and proxies

@@ -1,0 +1,5 @@
+.article
+  %h3 Look at my recent blog posts!
+  - blog.articles.each do |article|
+    %a{href: article.url}
+      %ol.inline-list= article.title

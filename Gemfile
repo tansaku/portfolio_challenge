@@ -10,6 +10,7 @@ gem "middleman-blog"
 
 #Template engine
 gem 'haml'
+gem 'kramdown'
 
 group :development, :test  do
   gem 'capybara'

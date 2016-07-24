@@ -1,3 +1,6 @@
+@charset "utf-8";
+@import "normalize";
+
 @import 'normalize';
 @import 'foundation';
 
@@ -197,4 +200,33 @@ $primary-color: dodgerblue;
   i.fi-target {
     margin-left: -21rem;
   }
+}
+
+.doc {
+  margin: 3em 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+
+  a {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 0.75em 0.7em;
+    color: white;
+    text-decoration: none;
+    transition: color 0.1s linear;
+    &:hover {
+      background: rgba(0,0,0,0.2);
+      color: white;
+      transition: all 0.15s linear;
+    }
+  }
+}
+
+.article {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;;
 }

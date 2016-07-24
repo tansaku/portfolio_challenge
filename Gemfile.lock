@@ -172,6 +172,7 @@ DEPENDENCIES
   capybara
   capybara-webkit
   haml
+  kramdown
   launchy
   middleman (>= 4.0.0)
   middleman-blog
