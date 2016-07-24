@@ -59,3 +59,5 @@ activate :blog do |blog|
 end
 
 set :relative_links, true
+###
+# Page options, layouts, aliases and proxies
