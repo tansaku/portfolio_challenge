@@ -29,3 +29,7 @@
 - name: Rails Messaging
   description: First steps using Ruby on Rails. Receiving some legacy code totally uncovered under the testing perspective and writing acceptance and unit tests using RSpec, Cucumber and making use of Travis and Coveralls.
   link: https://github.com/luciademoja/rails-messaging-june
+
+- name: BMI Calculator for mobile devices
+  description: Small project that uses Ionic Framework to develop mobile hybrid apps. To see it in action use the following ID on the Ionic App 2046e836
+  link: https://github.com/luciademoja/bmi_calculator_mobile
