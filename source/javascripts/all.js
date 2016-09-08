@@ -15,7 +15,7 @@ function fixedFooter() {
     var footer = $(".footer");
     height = footer.height();
     paddingTop = parseInt(footer.css('padding-top'), 10);
-    paddingBottom = parseInt(footer.css('padding-bottom'), 10);
+    paddingBottom = parseInt(footer.css('padding-bottom'), 0);
     totalHeight = (height + paddingTop + paddingBottom);
     footerPosition = footer.position();
     windowHeight = $(window).height();
